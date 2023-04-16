@@ -2,16 +2,23 @@ h1, h2 {
     font-weight: 300;
     font-family: monospace;
   }
-  
+  html{
+    background-color: rgb(38, 70, 83);
+  }
   h1 {
     font-size: 2em;
   }
-  
+  nav{
+    display: inline-block;
+   padding: 8px;
+   background-color: rgb(244, 162, 97);
+
+  }
   h2 {
     font-size: 1.5em;
   }
   
-  .quote {
+  h4 {
     font-family:monospace;
     font-weight: 100;
     color: rgb(231, 111, 81);
@@ -19,4 +26,27 @@ h1, h2 {
     font-size: 3em;
     text-align: center;
     margin-top: 2em;
+  }
+    /*div {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }*/
+  div{
+    background:rgb(29, 5, 21);
+    font-family: 'Lucida Sans';
+    width: 400px;
+    padding: 3rem;
+    border-radius: 10px;
+    position: relative;
+    color: rgb(255, 255, 255);
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+
+
   }
